@@ -1,7 +1,7 @@
 from __future__ import annotations
 from dataclasses import dataclass
-from Point import Point
-from Point import G
+from .point import Point
+from .point import G
 
 @dataclass
 class Generator:
