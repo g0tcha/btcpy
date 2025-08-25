@@ -1,7 +1,7 @@
 from __future__ import annotations
 from dataclasses import dataclass
 
-@dataclass
+@dataclass (frozen=True)
 class Curve:
     """
     Elliptic Curve over the field of integers modulo a prime.

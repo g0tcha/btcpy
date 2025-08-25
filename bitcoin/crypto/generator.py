@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from .point import Point
 from .point import G
 
-@dataclass
+@dataclass (frozen=True)
 class Generator:
     """
     A generator over a curve: an initial point and the (pre-computed) order

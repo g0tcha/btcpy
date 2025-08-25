@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from .curve import Curve
 from .curve import bitcoin_curve
 
-@dataclass 
+@dataclass (frozen=True)
 class Point:
     """ An integer point (x,y) on a Curve"""
     curve: Curve
